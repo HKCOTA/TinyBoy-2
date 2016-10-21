@@ -1,0 +1,10 @@
+[filament]
+name = tinyboy_PLA
+diameter = 1.75
+multiplierPercent = 100
+printingTemperature = 195
+enableCooling = True
+bedTemperature = 0
+fanSpeedMin = 100
+fanSpeedMax = 100
+minimalLayerTime = 8

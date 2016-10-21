@@ -1,0 +1,30 @@
+1. Start up Arduino IDE 1.6.10
+
+2. Open up the menu   File|Preferences 
+
+3. At the bottom is a field  Additional Boards manager URLs:
+Enter "https://raw.githubusercontent.com/Lauszus/Sanguino/master/package_lauszus_sanguino_index.json"
+
+4. Add Sanguino Library from Board Library
+
+5. Quit Arduino IDE
+
+6. (you need to turn on hidden folders) C:\Users\you\AppData\Local\Arduino15\packages\Sanguino\hardware\avr\1.0.0\boards.txt. 
+The stk500_getsync() error was fixed after editing the upload.speed from 152000 to 57600 for the chip i was using (1284p16mhz).
+
+7. Delete the folder C:\Users\you\AppData\Local\Arduino15\packages\arduino\tools\avr-gcc
+
+8. Restart the Arduino IDE, problem should now be fixed.
+
+9. rename all 'fpos_t' to 'fpos_t1'
+
+
+Remarks:
+This issue is that the latest Arduino AVR core uses a new version of avr-gcc and is incompatible with the previous version. 
+There is a bug with the Arduino IDE that causes installation of Sanguino to install the old compiler version which causes that error. 
+By deleting the old avr-gcc version it forces the Arduino IDE to use the new version that's included with the IDE installation instead.
+
+
+Info
+----
+http://forums.reprap.org/read.php?146,691608
