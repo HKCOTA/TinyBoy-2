@@ -4,7 +4,7 @@ A 3D Printer for Kids.
 This repo are stored all the Blue Prints and design diagrams.
 The TinyBoy design comes ABSOLUTELY NO WARRANTY!
 
-[TinyBoy(TM) 2](http://www.tinyboy.net) by [Hong Kong Creative Open Technology Association (HKCOTA)](http://cota.hk) is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+[TinyBoy(TM) 2](http://www.tinyboy.net) by [Hong Kong Creative Open Technology Association (HKCOTA)](http://cota.hk), blueprints and designs are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
   
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). 
 
@@ -19,4 +19,14 @@ To view a copy of this license, visit [https://creativecommons.org/licenses/by-n
 
 * NonCommercial — You may not use the material for commercial purposes.
 
-* ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.  
+* ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+
+# TinyBoy Projects are also using the hardware and firmware following projects:
+
+## Melzi Projects
+* using MKS's Melzi clone board, which is license under GPL 2.0. It is possible to ask MKS to get the board design. 
+
+
+## Marlin Firmware project
+* which is license under GPL. You can get the forked source from [https://github.com/wanleung/Marlin-TinyBoy/](https://github.com/wanleung/Marlin-TinyBoy/).
+
