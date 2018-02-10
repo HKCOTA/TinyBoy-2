@@ -30,3 +30,5 @@ To view a copy of this license, visit [https://creativecommons.org/licenses/by-n
 ## Marlin Firmware project
 * which is license under GPL. You can get the forked source from [https://github.com/wanleung/Marlin-TinyBoy/](https://github.com/wanleung/Marlin-TinyBoy/).
 
+## RMAPS v1.4
+* which is license under GPL.
