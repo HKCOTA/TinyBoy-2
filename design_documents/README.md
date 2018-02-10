@@ -25,10 +25,10 @@ To view a copy of this license, visit [https://creativecommons.org/licenses/by-n
 
 ## Melzi Projects, For L10/L16
 * using MKS's Melzi clone board, SMELZI, which should be licensed under GPL 2.0. MKS said it is possible to get the board design if you ask them. But we have doubt on it.
-The printers produced by MakeOmnia Ltd would still use this board. 
+The printers, which are produced by MakeOmnia Ltd., would still use this board. The version L10/L16 are supported by MakeOmnia Ltd. only.  
 
 ## RMAPS v1.4, For Lite/J10
-* which is licensed under GPL. As HKCOTA have doubt on the board, so for the HKCOTA version, we choose to use RAMPS v1.4 + Arduino as the main board of the printer.
+* which is licensed under GPL. As HKCOTA have doubt on the board, so for the HKCOTA version, we choose to use RAMPS v1.4 + Arduino as the main board of the printer. And it would be supported by HKCOTA and its community.
 
 ## Marlin Firmware project
 * which is licensed under GPL. You can get the forked source from [https://github.com/wanleung/Marlin-TinyBoy/](https://github.com/wanleung/Marlin-TinyBoy/).
